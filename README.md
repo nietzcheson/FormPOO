@@ -22,22 +22,23 @@ Se crean dos arrays.
     //Input Text
 
   	$inputs["nombre"] = [
-  		"type"=>"text",
-  		"name"=>"Nombre",
-  		"value"=>"",
-  		"placeholder"=>"Pon tu nombre",
-  		"class"=>"input",
+  		"type"          =>    "text",
+  		"name"          =>    "Nombre",
+  		"value"         =>    "",
+  		"placeholder"   =>    "Pon tu nombre",
+  		"class"         =>    "input",
   	];
   
   	//Select
+  	
   	$inputs["paises"] = [
-  		"type"=>"select",
-  		"name"=>"Nombre",
-  		"value"=>"Países",
-  		"opciones"=>[
-  			"Colombia",
-  			"Brasil"
-  		]
+  		"type"          =>    "select",
+  		"name"          =>    "Nombre",
+  		"value"         =>    "Países",
+  		"opciones"      =>    [
+                        			"Colombia",
+                        			"Brasil"
+  	                      	]
   	];
   	
   3. Por último, se instancia el objeto y se le pasan los parámetros->($formularios,$inputs);
