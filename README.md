@@ -18,8 +18,6 @@ Se crean dos arrays.
     ];
   
   2. El segundo array lleva los datos de cada uno de los elementos del formulario
-  
-    //Input Text
 
   	$inputs["nombre"] = [
   		"type"          =>    "text",
@@ -28,8 +26,6 @@ Se crean dos arrays.
   		"placeholder"   =>    "Pon tu nombre",
   		"class"         =>    "input",
   	];
-  
-  	//Select
   	
   	$inputs["paises"] = [
   		"type"          =>    "select",
