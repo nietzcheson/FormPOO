@@ -16,15 +16,5 @@ Se crean dos arrays.
   	  "action"    =>    "form.php",
   	  "id"        =>    "formulario"
     ];
-  
-  2. El segundo array lleva los datos de cada uno de los elementos del formulario
-
-  	$inputs["nombre"] = [
-  		"type"          =>    "text",
-  		"name"          =>    "Nombre",
-  		"value"         =>    "",
-  		"placeholder"   =>    "Pon tu nombre",
-  		"class"         =>    "input",
-  	];
-  	
-  3. Por último, se instancia el objeto y se le pasan los parámetros->($formularios,$inputs);
+    
+  2- El segundo array lleva los datos de cada uno de los elementos del formulario
