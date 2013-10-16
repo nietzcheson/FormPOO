@@ -81,11 +81,11 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
   	];
   	
   	$dcampana["comentarios"] = [
-				"label"       =>    "Descripción",
-				"type"        =>    "textarea",
-				"name"        =>    "descripcion",
-				"class"       =>    "caja100",
-			];
+		"label"       =>    "Descripción",
+		"type"        =>    "textarea",
+		"name"        =>    "descripcion",
+		"class"       =>    "caja100",
+	];
   	
   	inputs["submit"] = [
 				"type"      =>      "submit",
