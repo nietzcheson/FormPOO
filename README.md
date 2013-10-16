@@ -18,7 +18,9 @@ Se crean dos arrays.
     ];
     
   2- El segundo array lleva los datos de cada uno de los elementos del formulario.
-  
+    
+    //Para el [type=text]
+    
     $inputs["input"] = [
   		"label"=>"Label del input",
   		"type"=>"text",
@@ -26,4 +28,17 @@ Se crean dos arrays.
   		"value"=>"El nombre",
   		"placeholder"=>"Placeholder ",
   		"class"=>"input",
+  	];
+  	
+  	//Para el [select]
+  	
+  	$inputs["paises"] = [
+  		"label"=>"Label del select",
+  		"type"=>"select",
+  		"name"=>"Nombre",
+  		"value"=>"Países",
+  		"opciones"=>[
+  			"Colombia",
+  			"Brasil"
+  		]
   	];
