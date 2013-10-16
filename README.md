@@ -74,7 +74,7 @@ Se crean dos arrays.
   		"value"=>"check2",
   	];
 
-3- Por último, se instancia la clase pasándole los datos por array.
+  3- Por último, se instancia la clase pasándole los datos por array.
 
-  $Formulario = new Formulario($formularios, $inputs);
-  $Formulario->formulario();
+    $Formulario = new Formulario($formularios, $inputs);
+    $Formulario->formulario();
