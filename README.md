@@ -47,10 +47,10 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
   	//Para el [type=radio]
   	
   	$inputs["radio1"] = [
-  		"label"       =>"     Label del radio",
-  		"type"        =>"     radio",
-  		"name"        =>"     radio",
-  		"value"       =>"     Radio1",
+  		"label"       =>      "Label del radio",
+  		"type"        =>      "radio",
+  		"name"        =>      "radio",
+  		"value"       =>      "Radio1",
   		"class"       =>      "input"
   	];
   
@@ -79,6 +79,19 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
   		"value"       =>      "check2",
   		"class"       =>      "input"
   	];
+  	
+  	$dcampana["comentarios"] = [
+				"label"       =>    "Descripción",
+				"type"        =>    "textarea",
+				"name"        =>    "descripcion",
+				"class"       =>    "caja100",
+			];
+  	
+  	inputs["submit"] = [
+				"type"      =>      "submit",
+				"value"     =>      "Crear campaña",
+				"class"     =>      "input",
+			];
 
   3- Por último, se instancia la clase pasándole los datos por array.
 
