@@ -17,4 +17,13 @@ Se crean dos arrays.
   	  "id"        =>    "formulario"
     ];
     
-  2- El segundo array lleva los datos de cada uno de los elementos del formulario
+  2- El segundo array lleva los datos de cada uno de los elementos del formulario.
+  
+    $inputs["input"] = [
+  		"label"=>"Label del input",
+  		"type"=>"text",
+  		"name"=>"nombre",
+  		"value"=>"El nombre",
+  		"placeholder"=>"Placeholder ",
+  		"class"=>"input",
+  	];
