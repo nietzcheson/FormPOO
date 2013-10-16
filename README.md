@@ -13,9 +13,9 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
   1- El primero lleva los datos del formulario como: method, action y id.
     
     $formularios["formulario"] = [
-  	  "method"    =>    "POST",
-  	  "action"    =>    "form.php",
-  	  "id"        =>    "formulario"
+  	  "method"      =>      "POST",
+  	  "action"      =>      "form.php",
+  	  "id"          =>      "formulario"
     ];
     
   2- El segundo array lleva los datos de cada uno de los elementos del formulario.
@@ -23,56 +23,61 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
     //Para el [type=text]
     
     $inputs["input"] = [
-  		"label"=>"Label del input",
-  		"type"=>"text",
-  		"name"=>"nombre",
-  		"value"=>"El nombre",
-  		"placeholder"=>"Placeholder ",
-  		"class"=>"input",
+  		"label"       =>      "Label del input",
+  		"type"        =>      "text",
+  		"name"        =>      "nombre",
+  		"value"       =>      "El nombre",
+  		"placeholder" =>      "Placeholder ",
+  		"class"       =>      "input" //La clase la 'uso' para cuadrar mejor cada uno de los elementos del formulario
   	];
   	
   	//Para el [select]
   	
   	$inputs["select"] = [
-  		"label"=>"Label del select",
-  		"type"=>"select",
-  		"name"=>"paises",
-  		"opciones"=>[
-  			"Colombia",
-  			"Brasil"
-  		]
+  		"label"       =>      "Label del select",
+  		"type"        =>      "select",
+  		"name"        =>      "paises",
+  		"opciones"    =>[
+  			                    "Colombia",
+  			                    "Brasil"
+  		                ],
+  		"class"       =>      "input"
   	];
   	
   	//Para el [type=radio]
   	
   	$inputs["radio1"] = [
-  		"label"=>"Label del radio",
-  		"type"=>"radio",
-  		"name"=>"radio",
-  		"value"=>"Radio1",
+  		"label"       =>"     Label del radio",
+  		"type"        =>"     radio",
+  		"name"        =>"     radio",
+  		"value"       =>"     Radio1",
+  		"class"       =>      "input"
   	];
   
   	$inputs["radio2"] = [
-  		"label"=>"Label del radio",
-  		"type"=>"radio",
-  		"name"=>"radio",
-  		"value"=>"Radio2",
+  		"label"       =>      "Label del radio",
+  		"type"        =>      "radio",
+  		"name"        =>      "radio",
+  		"value"       =>      "Radio2",
+  		"class"       =>      "input"
   	];
   	
   	//Para el [type=checked]
 
   	$inputs["check1"] = [
-  		"label"=>"Label del checkbox",
-  		"type"=>"checkbox",
-  		"name"=>"check",
-  		"value"=>"check1",
+  		"label"       =>      "Label del checkbox",
+  		"type"        =>      "checkbox",
+  		"name"        =>      "check",
+  		"value"       =>      "check1",
+  		"class"       =>      "input"
   	];
   
   	$inputs["check2"] = [
-  		"label"=>"Label del checkbox",
-  		"type"=>"checkbox",
-  		"name"=>"check",
-  		"value"=>"check2",
+  		"label"       =>"     Label del checkbox",
+  		"type"        =>      "checkbox",
+  		"name"        =>      "check",
+  		"value"       =>      "check2",
+  		"class"       =>      "input"
   	];
 
   3- Por último, se instancia la clase pasándole los datos por array.
