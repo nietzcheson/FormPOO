@@ -88,9 +88,9 @@ Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
 	];
   	
   	inputs["submit"] = [
-		"type"      =>      "submit",
-		"value"     =>      "Crear campaña",
-		"class"     =>      "input",
+		"type"		=>      "submit",
+		"value"		=>	"Crear campaña",
+		"class"     	=>      "input",
 	];
 
   3- Por último, se instancia la clase pasándole los datos por array.
