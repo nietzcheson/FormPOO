@@ -1,6 +1,6 @@
 ﻿<?php 
 
-class Formulario
+class FormPOO
 {
 	public $forms = array();
 		public $method;
@@ -139,7 +139,7 @@ $formularios["registro"] = [
 		"value"=>"check2",
 	];
 
-$Formulario = new Formulario($formularios, $inputs);
+$formPOO = new FormPOO($formularios, $inputs);
 $Formulario->formulario();
 */
 
