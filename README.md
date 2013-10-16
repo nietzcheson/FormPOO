@@ -32,13 +32,44 @@ Se crean dos arrays.
   	
   	//Para el [select]
   	
-  	$inputs["paises"] = [
+  	$inputs["select"] = [
   		"label"=>"Label del select",
   		"type"=>"select",
-  		"name"=>"Nombre",
-  		"value"=>"Países",
+  		"name"=>"paises",
   		"opciones"=>[
   			"Colombia",
   			"Brasil"
   		]
+  	];
+  	
+  	//Para el [type=radio]
+  	
+  	$inputs["radio1"] = [
+  		"label"=>"Label del radio",
+  		"type"=>"radio",
+  		"name"=>"radio",
+  		"value"=>"Radio1",
+  	];
+  
+  	$inputs["radio2"] = [
+  		"label"=>"Label del radio",
+  		"type"=>"radio",
+  		"name"=>"radio",
+  		"value"=>"Radio2",
+  	];
+  	
+  	//Para el [type=checked]
+
+  	$inputs["check1"] = [
+  		"label"=>"Label del checkbox",
+  		"type"=>"checkbox",
+  		"name"=>"check",
+  		"value"=>"check1",
+  	];
+  
+  	$inputs["check2"] = [
+  		"label"=>"Label del checkbox",
+  		"type"=>"checkbox",
+  		"name"=>"check",
+  		"value"=>"check2",
   	];
