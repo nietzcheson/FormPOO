@@ -3,11 +3,12 @@ FormPOO
 
 Crear dinámicamente formularios con PHP
 
-Hay actividades que en el desarrollo de cualquier aplicación se hacen repetitivas. 
-En mi caso, hago una aplicación que requiere de muchas veces crear formularios. 
-He aquí por qué he creado esta clase. Es bastante sencilla.
+Generalmente, en cualquier desarrollo de cualquier aplicación hay actividades que se suelen repetir constantemente. 
+La hechura de formularios para el transporte de datos es común en las aplicaciones de hoy.
+He aquí mi querer en crear esta clase. Resuelve de la manera más sencilla la creación de estos.
+Ya si necesitamos hacer 1 ó 1000 formularios, no será una tarea engorrosa.
 
-Se crean dos arrays.
+¡Es fácil! Se crean dos arrays.
 
   1- El primero lleva los datos del formulario como: method, action y id.
     
